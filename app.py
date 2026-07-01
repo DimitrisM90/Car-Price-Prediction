@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Car Price Prediction AI", layout="wide")
 
 st.title("🚗 Car Price Prediction AI")
+st.write("Welcome to my Machine Learning Project")
 
 model = joblib.load("Car_price.pkl")
 
